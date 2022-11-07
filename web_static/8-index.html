@@ -1,200 +1,129 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+        <meta charset="utf-8">
+      <link rel="stylesheet" href="styles/4-common.css">
+      <link rel="stylesheet" href="styles/3-header.css">
+      <link rel="stylesheet" href="styles/3-footer.css">
+      <link rel="stylesheet" href="styles/6-filters.css">
+      <link rel="stylesheet" href="styles/8-places.css">
+      <link rel="icon" type="image/png" href="images/icon.png">
+      <title>AirBnB clone</title>
+  </head>
 
-<head>
-  <title>Best School</title>
-  <link href="styles/3-header.css" rel="stylesheet">
-  <link href="styles/4-common.css" rel="stylesheet">
-  <link href="styles/3-footer.css" rel="stylesheet">
-  <link href="styles/6-filters.css" rel="stylesheet">
-  <link href="styles/8-places.css" rel="stylesheet">
-  <link href="https://s3.amazonaws.com/intranet-projects-files/holbertonschool-higher-level_programming+/268/icon.png" rel="icon">
-</head>
+  <body class="common">
+    <header class="header"></header>
+    <div class="container">
+            <section class="filters">
+                    <div class="locations">
+                        <h3>States</h3>
+                        <h4>California, Arizona...</h4>
+                        <ul class="popover">
+                            <li>
+                                <h2>Arizona:</h2>
+                            </li>
+                            <li>
+                                <ul>
+                                    <li>Page</li>
+                                    <li>Page2</li>
+                                </ul>
+                            </li>
+                            <li>
+                                <h2>California:</h2>
+                            </li>
+                            <li>
+                                <ul>
+                                    <li>San Francisco</li>
+                                    <li>Los Altos</li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="amenities">
+                        <h3>Amenities</h3>
+                        <h4>Internet, Kitchen...</h4>
+                        <ul class="popover">
+                            <li>Internet</li>
+                            <li>TV</li>
+                            <li>Kitchen</li>
+                            <li>Iron</li>
+                        </ul>
+                    </div>
+                    <button>
+                            Search
+                    </button>
+                </section>
+        <section class="places">
+            <h1>Places</h1>
+            <article>
+                <h2>My home</h2>
+                <div class="price_by_night">$80</div>
+                <div class="information">
+                    <div class="max_guest">
+                        2 guests
+                    </div>
+                    <div class="number_rooms">
+                        1 bedroom
+                    </div>
+                    <div class="number_bathrooms">
+                        1 bathroom
+                    </div>
 
-<body>
-  <header>
-    <div class="logo"></div>
-  </header>
-  <main class="container">
-    <section class="filters">
-      <button type="button">Search</button>
-      <div class="locations">
-        <h3>States</h3>
-        <h4>California</h4>
-        <ul class="popover">
-          <li>
-            <h2>Arizona:</h2>
-          </li>
-          <li>
-            <ul class="popover_list">
-              <li>Content</li>
-              <li>Content</li>
-              <li>Content</li>
-            </ul>
-          </li>
-          <li>
-            <h2>California:</h2>
-          </li>
-          <li>
-            <ul class="popover_list">
-              <li>Content</li>
-              <li>Content</li>
-              <li>Content</li>
-            </ul>
-          </li>
-        </ul>
-      </div>
-      <div class="amenities">
-        <h3>Amenities</h3>
-        <h4>Lorem Ipsum</h4>
-        <ul class="popover">
-          <li>Internet</li>
-          <li>Tv</li>
-          <li>Free Food</li>
-          <li>Pool</li>
-        </ul>
-      </div>
-    </section>
-    <section class="places">
-      <div class="places_title">
-        <h1>Places</h1>
-      </div>
-      <div class="articles">
-        <article>
-          <div class="price_title">
-            <div class="article_title">
-              <h2>My Home</h2>
-            </div>
-            <div class="price_by_night">
-              <div class="price">
-                $60
-              </div>
-            </div>
-          </div>
-          <div class="information">
-            <div class="max_guest">
-              <div class="guest_icon">
-              </div>
-              <div class="guest_number">
-                <h2>2 Guests</h2>
-              </div>
-            </div>
-            <div class="number_rooms">
-              <div class="rooms_icon">
-              </div>
-              <div class="rooms_number">
-                <h2>1 Bedroom</h2>
-              </div>
-            </div>
-            <div class="number_bathrooms">
-              <div class="bathrooms_icon">
-              </div>
-              <div class="bathrooms_number">
-                <h2>1 Bathroom</h2>
-              </div>
-            </div>
-          </div>
-          <div class="user">
-            <b>Owner:</b> Grace Hopper
-          </div>
-          <div class="description">
-            Lorem ipsum dolor sit amet consectetur
-            adipisicing elit. Esse, possimus amet.
-            Minus, earum quos deleniti explicabo illum dolorem nesciunt rem.
-          </div>
-        </article>
-        <article>
-          <div class="price_title">
-            <div class="article_title">
-              <h2>My Home</h2>
-            </div>
-            <div class="price_by_night">
-              <div class="price">
-                $60
-              </div>
-            </div>
-          </div>
-          <div class="information">
-            <div class="max_guest">
-              <div class="guest_icon">
-              </div>
-              <div class="guest_number">
-                <h2>2 Guests</h2>
-              </div>
-            </div>
-            <div class="number_rooms">
-              <div class="rooms_icon">
-              </div>
-              <div class="rooms_number">
-                <h2>1 Bedroom</h2>
-              </div>
-            </div>
-            <div class="number_bathrooms">
-              <div class="bathrooms_icon">
-              </div>
-              <div class="bathrooms_number">
-                <h2>1 Bathroom</h2>
-              </div>
-            </div>
-          </div>
-          <div class="user">
-            <b>Owner:</b> Grace Hopper
-          </div>
-          <div class="description">
-            Lorem ipsum dolor sit amet consectetur
-            adipisicing elit. Esse, possimus amet.
-            Minus, earum quos deleniti explicabo illum dolorem nesciunt rem.
-          </div>
-        </article>
-        <article>
-          <div class="price_title">
-            <div class="article_title">
-              <h2>My Home</h2>
-            </div>
-            <div class="price_by_night">
-              <div class="price">
-                $60
-              </div>
-            </div>
-          </div>
-          <div class="information">
-            <div class="max_guest">
-              <div class="guest_icon">
-              </div>
-              <div class="guest_number">
-                <h2>2 Guests</h2>
-              </div>
-            </div>
-            <div class="number_rooms">
-              <div class="rooms_icon">
-              </div>
-              <div class="rooms_number">
-                <h2>1 Bedroom</h2>
-              </div>
-            </div>
-            <div class="number_bathrooms">
-              <div class="bathrooms_icon">
-              </div>
-              <div class="bathrooms_number">
-                <h2>1 Bathroom</h2>
-              </div>
-            </div>
-          </div>
-          <div class="user">
-            <b>Owner:</b> Grace Hopper
-          </div>
-          <div class="description">
-            Lorem ipsum dolor sit amet consectetur
-            adipisicing elit. Esse, possimus amet.
-            Minus, earum quos deleniti explicabo illum dolorem nesciunt rem.
-          </div>
-        </article>
-      </div>
-    </section>
-  </main>
-  <footer>
-    Best School
-  </footer>
-</body>
+                </div>
+                <div class="user">
+                    <b>Owner</b>: Harry Potter
+                    <p>
+                        This place is super haunted, I'd be sure not to stay here if I were you. I saw a ghost one time and it spooked me real real good.
+                    </p>
+                </div>
+            </article>
+            <article>
+                <h2>Tiny House</h2>
+                <div class="price_by_night">$65</div>
+                <div class="information">
+                        <div class="max_guest">
+                            1 guest1
+                        </div>
+                        <div class="number_rooms">
+                            1/2 bedroom
+                        </div>
+                        <div class="number_bathrooms">
+                            No bathroom
+                        </div>
+                    </div>
+                    <div class="user">
+                        <b>Owner</b>: Your mother
+                        <p>
+                            I wish you would clean up this room. It's such a tiny room, I don't understand how you let it get so messy. How can someone with such a small teeny tiny room accumulate so much junk?!
+                        </p>
+                    </div>
+            </article>
+            <article>
+                <h2>A suite</h2>
+                <div class="price_by_night">$190</div>
+                <div class="information">
+                        <div class="max_guest">
+                            15,000 guests
+                        </div>
+                        <div class="number_rooms">
+                            15,000 beds
+                        </div>
+                        <div class="number_bathrooms">
+                            5 bathrooms
+                        </div>
+                    </div>
+                    <div class="user">
+                        <b>Owner</b>: A madman
+                        <p>
+                            Yes you read that right. 15,000 rooms for 15,000 people all sharing 5 bathrooms. That's one toilet for every 3,000 people. It's the premise to a screenplay I wrote that takes place in the Saw movie franchise. I'm trying to kickstart the project. Check out my patreon. I accept venmo.
+                        </p>
+                    </div>
+            </article>
+        </section>
+    </div>
+    <footer class="footer">
+        Best School
+    </footer>
+  </body>
 
 </html>

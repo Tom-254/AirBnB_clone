@@ -1,5 +1,5 @@
-body{
-    color: #484848;
-    font-size: 14px;
-    font-family: Cicular, "Helvetica Neue",Arial, Helvetica, sans-serif;
+.header {
+    background:#FF0000;
+    height:70px;
+    width:100%;
 }
